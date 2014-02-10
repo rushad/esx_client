@@ -1,8 +1,8 @@
-#include "wsdl/SoapVimBindingProxy.h"
+/*#include "wsdl/SoapVimBindingProxy.h"
 #include "wsdl/vim.h"
-#include "wsdl/VimBinding.nsmap"
+#include "wsdl/VimBinding.nsmap"*/
 int main() 
 { 
-  Soap::ns1__AboutInfo ai;
+//  Soap::ns1__AboutInfo ai;
    return 0; 
 }

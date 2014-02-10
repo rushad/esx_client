@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioToolFile
+	Name="gSOAP"
+	Version="8.00"
+	>
+	<Rules>
+		<CustomBuildRule
+			Name="gSOAP"
+			DisplayName="gSOAP"
+			CommandLine="gsoap.bat"
+			Outputs="gsoap/vim.h;gsoap/SoapC.cpp;gsoap/SoapClient.cpp;gsoap/SoapH.h;gsoap/SoapStub.h;gsoap/SoapVimBindingProxy.h;gsoap/VimBinding.nsmap"
+			AdditionalDependencies="src/wsdl/vim.wsdl"
+			FileExtensions="*.wsdl"
+			ExecutionDescription="gSOAP"
+			>
+			<Properties>
+			</Properties>
+		</CustomBuildRule>
+	</Rules>
+</VisualStudioToolFile>
