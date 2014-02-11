@@ -1,3 +1,3 @@
 @call config.cmd
-@wsdl2h -f -qSoap -o gsoap/vim.h src/wsdl/vim.wsdl
-@soapcpp2 -C -L -x -I%GSOAP_INCLUDE_PATH% -dgsoap gsoap/vim.h
+wsdl2h -o gsoap/vimService.h -t src/wsdl/typemap.dat src/wsdl/vimService.wsdl
+soapcpp2 -C -i -L -x -I%GSOAP_INCLUDE_PATH% -dgsoap gsoap/vimService.h

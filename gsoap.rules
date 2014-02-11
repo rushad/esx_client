@@ -8,7 +8,7 @@
 			Name="gSOAP"
 			DisplayName="gSOAP"
 			CommandLine="gsoap.bat"
-			Outputs="gsoap/vim.h;gsoap/SoapC.cpp;gsoap/SoapClient.cpp;gsoap/SoapH.h;gsoap/SoapStub.h;gsoap/SoapVimBindingProxy.h;gsoap/VimBinding.nsmap"
+			Outputs="gsoap/vimService.h;gsoap/SoapC.cpp;gsoap/SoapH.h;gsoap/SoapStub.h;gsoap/SoapVimBindingProxy.h;gsoap/SoapVimBindingProxy.cpp;gsoap/VimBinding.nsmap"
 			AdditionalDependencies="src/wsdl/vim.wsdl"
 			FileExtensions="*.wsdl"
 			ExecutionDescription="gSOAP"

@@ -45,6 +45,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
+				AdditionalOptions="/bigobj"
 				Optimization="0"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
@@ -187,6 +188,18 @@
 				RelativePath=".\src\main.cpp"
 				>
 			</File>
+			<File
+				RelativePath=".\gsoap\SoapC.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\gsoap\SoapVimBindingProxy.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\stdsoap2.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
@@ -194,7 +207,19 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath=".\gsoap\vim.h"
+				RelativePath=".\gsoap\SoapH.h"
+				>
+			</File>
+			<File
+				RelativePath=".\gsoap\SoapStub.h"
+				>
+			</File>
+			<File
+				RelativePath=".\gsoap\SoapVimBindingProxy.h"
+				>
+			</File>
+			<File
+				RelativePath=".\src\stdsoap2.h"
 				>
 			</File>
 		</Filter>
@@ -207,20 +232,6 @@
 		<File
 			RelativePath=".\src\wsdl\src\vim.wsdl"
 			>
-			<FileConfiguration
-				Name="Debug|Win32"
-				>
-				<Tool
-					Name="gSOAP"
-				/>
-			</FileConfiguration>
-			<FileConfiguration
-				Name="Release|Win32"
-				>
-				<Tool
-					Name="gSOAP"
-				/>
-			</FileConfiguration>
 		</File>
 	</Files>
 	<Globals>
