@@ -10,7 +10,7 @@
    <import location="vim.wsdl" namespace="urn:vim25" />
    <service name="VimService">
       <port binding="interface:VimBinding" name="VimPort">
-         <soap:address location="https://10.27.11.125/sdk/vimService" />
+         <soap:address location="https://localhost/sdk/vimService" />
       </port>
    </service>
 </definitions>
