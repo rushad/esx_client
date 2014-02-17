@@ -190,6 +190,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\src\service_instance.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\src\session_manager.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\gsoap\SoapC.cpp"
 				>
 			</File>
@@ -208,15 +216,23 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath=".\gsoap\SoapH.h"
+				RelativePath=".\src\service_content.h"
 				>
 			</File>
 			<File
-				RelativePath=".\gsoap\SoapStub.h"
+				RelativePath=".\src\service_instance.h"
 				>
 			</File>
 			<File
-				RelativePath=".\gsoap\SoapVimBindingProxy.h"
+				RelativePath=".\src\session_manager.h"
+				>
+			</File>
+			<File
+				RelativePath=".\gsoap\soapStub.h"
+				>
+			</File>
+			<File
+				RelativePath=".\gsoap\soapVimBindingProxy.h"
 				>
 			</File>
 		</Filter>
